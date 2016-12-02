@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 2048M
+  instances: 1
+  domain: mybluemix.net
+  name: newaodev
+  host: newaodev
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
